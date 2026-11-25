@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Govvi — isotipo vectorizado</title>
+  <desc id="desc">Isotipo blanco de Govvi sobre un cuadrado violeta, con un punto amarillo.</desc>
+  <defs>
+    <linearGradient id="violet" x1="35" y1="10" x2="478" y2="502" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8612bd"/>
+      <stop offset=".5" stop-color="#720caf"/>
+      <stop offset="1" stop-color="#61099c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="75" fill="url(#violet)"/>
+  <circle cx="381" cy="92" r="56" fill="#ffda14"/>
+
+  <!-- Monograma g. El hueco central deja ver el fondo violeta. -->
+  <path fill="#fff" fill-rule="evenodd" d="
+    M252 194
+    C242 184 239 171 247 160
+    C260 143 316 141 345 158
+    C376 177 377 207 361 233
+    C343 261 346 278 352 309
+    C365 371 356 418 316 451
+    C285 477 242 485 197 479
+    C142 472 102 447 83 401
+    C76 382 83 370 98 374
+    C120 381 139 400 168 404
+    C200 409 235 403 251 383
+    C257 375 257 367 253 359
+    C229 374 198 380 166 375
+    C111 367 78 330 80 279
+    C81 224 125 181 184 180
+    C211 180 235 185 252 194 Z
+
+    M211 240
+    C198 242 193 261 194 278
+    C194 298 202 314 214 314
+    C228 314 238 297 238 277
+    C237 256 226 238 211 240 Z"/>
+</svg>
